@@ -17,6 +17,7 @@ Equipe formada por:
 - [Componentes necessários](#componentes-necessários)
 - [Simulação](#simulação)
 - [Testes realizados](#testes-realizados)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Como compilar](#como-compilar)
 - [Demonstração](#demonstração)
 
@@ -31,6 +32,27 @@ Equipe formada por:
 
 ## Componentes necessários
 
+| Componente                       | Quantidade |
+| :-----------:                    | :--------: |
+| LED (Cores únicas)               | 4          |
+| Motor 180                        | 3          |
+| Sensor de presença               | 4          |
+| Sensor de amperagem não invasivo | 1          |
+| Sensor de umidade e temperatura  | 1          |
+| Buzzer                           | 1          |
+| Detector de chama                | 1          |
+| Sensor de gás carbônico          | 1          |
+| Sensor RFID                      | 1          |
+| Tag RFID                         | 2          |
+| Bomba d'água                     | 1          |
+| Sensor infravermelho             | 1          |
+| Sensor de solo ergométrico       | 1          |
+| Jumper macho-fêmea               | X          |
+| Jumper macho-macho               | X          |
+| Jumper fêmea-fêmea               | X          |
+| Arduino Uno                      | 1          |
+| Arduino Nano                     | 1          |
+
 ## Simulação
 
 Realizada no [TinkerCAD](https://www.tinkercad.com/things/1ti3R4PK9Hj-tremendous-jaagub-kasi/editel?sharecode=8vkjghZ6XnxZCeL6nJtyfPkicpLPOaI8kOBU5B5z2uQ).
@@ -39,6 +61,10 @@ Realizada no [TinkerCAD](https://www.tinkercad.com/things/1ti3R4PK9Hj-tremendous
 
 TDD - Test-Driven Development
 Máquina de Estados com Métodos Formais
+
+## Tecnologias utilizadas
+
+- Firebase
 
 ## Como compilar
 
