@@ -23,12 +23,12 @@ Equipe formada por:
 
 ## Divisão de trabalho
 
-| Cargo         | Equipe           |
-| :-----------: | :--------------: |
-| Software      | Rosialdo Vidinho |
-| Hardware      | Eduardo Henrique |
-| QA            | Lucas Ribeiro    |
-| Documentation | Lucas Prado      |
+| Cômodos         | Equipe           |
+| :-------------: | :--------------: |
+| Sala e Jardim   | Rosialdo Vidinho |
+| Quarto          | Eduardo Henrique |
+| Cozinha         | Lucas Ribeiro    |
+| Garagem         | Lucas Prado      |
 
 ## Componentes necessários
 
