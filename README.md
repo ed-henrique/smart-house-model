@@ -1,6 +1,6 @@
 # Casa inteligente em miniatura <!-- omit in toc -->
 
-<!-- Inserir Big Picture aqui -->
+![Big Picture](assets/big_picture.jpeg)
 
 Projeto e implementação de uma maquete de casa inteligente
 
