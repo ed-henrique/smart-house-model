@@ -73,7 +73,7 @@ Equipe formada por:
 
 Realizada no [TinkerCAD](https://www.tinkercad.com/).
 
-- [Quarto](https://www.tinkercad.com/things/1ti3R4PK9Hj-room/editel?sharecode=8vkjghZ6XnxZCeL6nJtyfPkicpLPOaI8kOBU5B5z2uQ).
+- [Quarto](https://www.tinkercad.com/things/1ti3R4PK9Hj-room/editel?sharecode=8vkjghZ6XnxZCeL6nJtyfPkicpLPOaI8kOBU5B5z2uQ)
 
 ![Room Simulation](assets/room_simulation.png)
 
