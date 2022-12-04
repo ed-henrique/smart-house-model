@@ -20,20 +20,22 @@ Equipe formada por:
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Como compilar](#como-compilar)
 - [Demonstração](#demonstração)
+- [Referências](#referências)
+  - [Quarto](#quarto)
 
 ## Divisão de trabalho
 
-| Cômodos         | Equipe           |
-| :-------------: | :--------------: |
-| Sala e Jardim   | Rosialdo Vidinho |
-| Quarto          | Eduardo Henrique |
-| Cozinha         | Lucas Prado      |
-| Garagem         | Lucas Ribeiro    |
+| Equipe           | Cômodos         |
+| :--------------- | :-------------: |
+| Lucas Prado      | Cozinha         |
+| Lucas Ribeiro    | Garagem         |
+| Eduardo Henrique | Quarto          |
+| Rosialdo Vidinho | Sala e Jardim   |
 
 ## Componentes necessários
 
 | Componente                       | Quantidade |
-| :-----------:                    | :--------: |
+| :------------------------------- | :--------: |
 | LED (Cores únicas)               | 4          |
 | Motor 180                        | 3          |
 | Sensor de presença               | 4          |
@@ -52,10 +54,13 @@ Equipe formada por:
 | Jumper fêmea-fêmea               | X          |
 | Arduino Uno                      | 1          |
 | Arduino Nano                     | 1          |
+| ESP8266 WiFi Module              | 1          |
 
 ## Simulação
 
-Realizada no [TinkerCAD](https://www.tinkercad.com/things/1ti3R4PK9Hj-tremendous-jaagub-kasi/editel?sharecode=8vkjghZ6XnxZCeL6nJtyfPkicpLPOaI8kOBU5B5z2uQ).
+Realizada no [TinkerCAD](https://www.tinkercad.com/).
+
+- [Quarto](https://www.tinkercad.com/things/1ti3R4PK9Hj-room/editel?sharecode=8vkjghZ6XnxZCeL6nJtyfPkicpLPOaI8kOBU5B5z2uQ).
 
 ## Testes realizados
 
@@ -73,3 +78,10 @@ WIP
 ## Demonstração
 
 WIP
+
+## Referências
+
+### Quarto
+
+- [Sensor PIR com LED](https://www.instructables.com/PIR-Motion-Sensor-With-Arduino-in-Tinkercad/)
+- [Registrando logs em Firebase com Arduino](https://create.arduino.cc/projecthub/electropeak/connecting-arduino-to-firebase-to-send-receive-data-cd8805)
