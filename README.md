@@ -1,4 +1,4 @@
-# Casa inteligente em miniatura <!-- omit in toc -->
+# Casa Inteligente em Miniatura <!-- omit in toc -->
 
 ![Big Picture](assets/big_picture.jpeg)
 
@@ -11,28 +11,41 @@ Equipe formada por:
 - [Lucas Ribeiro](https://github.com/LuKasAlvino)
 - [Lucas Prado](https://github.com/Lucasx10)
 
-## Table of Contents <!-- omit in toc -->
+## Índice <!-- omit in toc -->
 
-- [Divisão de trabalho](#divisão-de-trabalho)
-- [Componentes necessários](#componentes-necessários)
+- [Divisão de Trabalho](#divisão-de-trabalho)
+  - [Andamento do Projeto](#andamento-do-projeto)
+- [Componentes Necessários](#componentes-necessários)
 - [Simulação](#simulação)
-- [Testes realizados](#testes-realizados)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Como compilar](#como-compilar)
+- [Testes Realizados](#testes-realizados)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Compilar](#como-compilar)
 - [Demonstração](#demonstração)
 - [Referências](#referências)
   - [Quarto](#quarto)
 
-## Divisão de trabalho
+## Divisão de Trabalho
 
 | Equipe           | Cômodos         |
 | :--------------- | :-------------: |
 | Lucas Prado      | Cozinha         |
 | Lucas Ribeiro    | Garagem         |
-| Eduardo Henrique | Quarto          |
 | Rosialdo Vidinho | Sala e Jardim   |
+| Eduardo Henrique | Quarto          |
 
-## Componentes necessários
+### Andamento do Projeto
+
+| Cômodo  | Documentação | Código | Simulação | Circuito Físico |
+| :-----  | :----------: | :----: | :-------: | :-------------: |
+| Sala    | - | -  | -  | - |
+| Jardim  | - | -  | -  | - |
+| Quarto  | - | 👍 | 👍 | - |
+| Cozinha | - | -  | -  | - |
+| Garagem | - | -  | -  | - |
+|                           |
+| Final   | - | -  | -  | - |
+
+## Componentes Necessários
 
 | Componente                       | Quantidade |
 | :------------------------------- | :--------: |
@@ -62,16 +75,18 @@ Realizada no [TinkerCAD](https://www.tinkercad.com/).
 
 - [Quarto](https://www.tinkercad.com/things/1ti3R4PK9Hj-room/editel?sharecode=8vkjghZ6XnxZCeL6nJtyfPkicpLPOaI8kOBU5B5z2uQ).
 
-## Testes realizados
+## Testes Realizados
 
 TDD - Test-Driven Development
+
 Máquina de Estados com Métodos Formais
 
-## Tecnologias utilizadas
+## Tecnologias Utilizadas
 
+- Arduino
 - Firebase
 
-## Como compilar
+## Como Compilar
 
 WIP
 
