@@ -27,8 +27,8 @@ Equipe formada por:
 | :-------------: | :--------------: |
 | Sala e Jardim   | Rosialdo Vidinho |
 | Quarto          | Eduardo Henrique |
-| Cozinha         | Lucas Ribeiro    |
-| Garagem         | Lucas Prado      |
+| Cozinha         | Lucas Prado      |
+| Garagem         | Lucas Ribeiro    |
 
 ## Componentes necessários
 
