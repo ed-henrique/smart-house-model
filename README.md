@@ -40,7 +40,7 @@ Equipe formada por:
 | Sala    | - | -  | -  | - |
 | Jardim  | - | -  | -  | - |
 | Quarto  | - | 👍 | 👍 | - |
-| Cozinha | - | -  | -  | - |
+| Cozinha | - | 👍 | 👍 | - |
 | Garagem | - | -  | -  | - |
 |                           |
 | Final   | - | -  | -  | - |
