@@ -3,6 +3,7 @@
 import json
 import serial
 import firebase_admin
+from firebase_admin import db
 from datetime import datetime as dt
 
 cred_obj = firebase_admin.credentials.Certificate("secrets.json")
@@ -10,7 +11,7 @@ default_app = firebase_admin.initialize_app(cred_obj, {
     "databaseURL": "https://embarcados-ef757-default-rtdb.firebaseio.com/"
 })
 
-ref = firebase_admin.db.reference("/")
+ref = db.reference("/")
 ref.set({
     "uno": {},
     "esp": {},
@@ -29,11 +30,11 @@ ser_esp = serial.Serial(serial_port_esp, baud_rate)
 def main():
     while True:
         write_log(ser_uno, "uno")
-        write_log(ser_esp, "esp")
-        write_log(ser_nano, "nano")
+        #write_log(ser_esp, "esp")
+        #write_log(ser_nano, "nano")
     
 def write_log(board, board_name):
-    ref_local = firebase_admin.db.reference(f"/{board}")
+    ref_local = db.reference(f"/{board}")
 
     with open(f"logs/{board_name}/{str(dt.now())}.log", 'w+') as f:
         line = board.readline()
