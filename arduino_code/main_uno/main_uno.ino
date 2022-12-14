@@ -7,7 +7,7 @@ Esta, por sua vez, é composta por:
 - Sensor de gás
 - Sensor de umidade (Usado para detectar quando ligar uma torneira para molhar as plantas, representado por um LED)
 
-Este modulo foi designado para Lucas Ribeiro, que o implementou.
+Este modulo foi designado para Lucas prado, que o implementou.
 */
 
 // Sensores analógicos
@@ -20,6 +20,7 @@ Este modulo foi designado para Lucas Ribeiro, que o implementou.
 #define LED_SALA_DE_ESTAR 10
 #define LED_QUARTO 12
 #define LED_QUARTO_ALARME 8
+#define LED_GAS 9
 
 // Sensores ultrasônicos
 #define QUARTO_ECHO 5
@@ -86,7 +87,7 @@ void quarto() {
     contadorTempoQuarto = millis();
     
   	digitalWrite(LED_QUARTO, HIGH);
-    Serial.print("[QUARTO] LED ligado! Distância: ");
+    Serial.print("[QUARTO] LED ligado! Distancia: ");
     Serial.print(distancia);
     Serial.println(" CM");
     Serial.println();
@@ -105,7 +106,8 @@ void cozinha() {
   distancia = pulseIn(COZINHA_ECHO, HIGH) * PARA_CENTIMETROS;
 
   if (quantidadeGas >= 800) {
-    Serial.print("[COZINHA] Excesso de gás detectado! Sensor de gás: ");
+    digitalWrite(LED_GAS, HIGH);
+    Serial.print("[COZINHA] Excesso de gas detectado! Sensor de gas: ");
     Serial.println(quantidadeGas);
     Serial.println();
   }
@@ -114,7 +116,7 @@ void cozinha() {
     contadorTempoCozinha = millis();
 
   	digitalWrite(LED_COZINHA, HIGH);
-    Serial.print("[COZINHA] LED ligado! Distância: ");
+    Serial.print("[COZINHA] LED ligado! Distancia: ");
     Serial.print(distancia);
     Serial.println(" CM");
     Serial.println();
@@ -134,7 +136,7 @@ void salaDeEstar() {
     contadorTempoSalaDeEstar = millis();
 
   	digitalWrite(LED_SALA_DE_ESTAR, HIGH);
-    Serial.print("[SALA DE ESTAR] LED ligado! Distância: ");
+    Serial.print("[SALA DE ESTAR] LED ligado! Distancia: ");
     Serial.print(distancia);
     Serial.println(" CM");
     Serial.println();
@@ -150,10 +152,12 @@ void jardim () {
   int leituraUmidade = analogRead(SENSOR_UMIDADE); 
 
   if (leituraUmidade<=1023 && leituraUmidade>=682) {
-    Serial.println("[JARDIM] Nível de Umidade baixo!");
-  } else if (leituraUmidade<=681 && leituraUmidade>=341) { 
-    Serial.println("[JARDIM] Nível de Umidade Medio!");
-  } else if (leituraUmidade<=340 && leituraUmidade>=0) {
-    Serial.println("[JARDIM] Nível de Umidade Alto!");
-  }
+    Serial.println("[JARDIM] Nivel de Umidade baixo!");
+    digitalWrite(LED_JARDIM, HIGH);
+
+  } else if (leituraUmidade<=681 && leituraUmidade>=0){
+    Serial.println("[JARDIM] Nivel de Umidade Alto!");
+    digitalWrite(LED_JARDIM, LOW);
+
+  } 
 }

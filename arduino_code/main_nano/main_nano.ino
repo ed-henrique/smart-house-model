@@ -1,7 +1,6 @@
 /*
 Este código contém a implementação da garagem no Arduino Nano. Esta, por sua vez, é composta por
 um leitor RFID e um servo motor, simulando assim uma autenticação para abertura de portão.
-
 Este modulo foi designado para Lucas Ribeiro, que o implementou.
 */
 
@@ -50,14 +49,14 @@ String lerUID() {
 }
 
 void abrirGaragem() {
-    for (posicao = 0; posicao < 180; posicao++) {
+    for (posicao = 0; posicao < 90; posicao++) {
         portao.write(posicao);
         delay(15);
     }
 
     delay(5000);
 
-    for (posicao = 180; posicao > 0; posicao--) {
+    for (posicao = 90; posicao > 0; posicao--) {
         portao.write(posicao);
         delay(15);
     }
