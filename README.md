@@ -77,6 +77,10 @@ Realizada no [TinkerCAD](https://www.tinkercad.com/).
 
 ![Room Simulation](assets/room_simulation.png)
 
+- [Cozinha](https://www.tinkercad.com/things/7djUzqg2YDo-cozinha-projeto-casa-inteligente/editel)
+
+![Kitchen Simulation](assets/kitchen_simulation.png)
+
 ## Testes Realizados
 
 TDD - Test-Driven Development
