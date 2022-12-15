@@ -105,7 +105,7 @@ void cozinha() {
     
   distancia = pulseIn(COZINHA_ECHO, HIGH) * PARA_CENTIMETROS;
 
-  if (quantidadeGas >= 800) {
+  if (quantidadeGas >= 500) {
     digitalWrite(LED_GAS, HIGH);
     Serial.print("[COZINHA] Excesso de gas detectado! Sensor de gas: ");
     Serial.println(quantidadeGas);
@@ -116,7 +116,7 @@ void cozinha() {
     contadorTempoCozinha = millis();
 
   	digitalWrite(LED_COZINHA, HIGH);
-    Serial.print("[COZINHA] LED ligado! Distancia: ");
+    Serial.print("[COZINHA] LED ligado! Distancia: ");  
     Serial.print(distancia);
     Serial.println(" CM");
     Serial.println();
