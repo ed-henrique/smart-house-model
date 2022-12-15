@@ -17,6 +17,7 @@ Equipe formada por:
   - [Andamento do Projeto](#andamento-do-projeto)
 - [Componentes Necessários](#componentes-necessários)
 - [Simulação](#simulação)
+- [Storyboard](#storyboard)
 - [Testes Realizados](#testes-realizados)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como Compilar](#como-compilar)
@@ -85,7 +86,7 @@ Realizada no [TinkerCAD](https://www.tinkercad.com/).
 
 ![ESP 8266 Simulation](assets/ESP_8266.png)
 
-- [Storyboard] ()
+## Storyboard
 
 ![Storyboard](assets/big-picture-SI-projet.png)
 ## Testes Realizados
