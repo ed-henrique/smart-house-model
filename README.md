@@ -38,30 +38,23 @@ Equipe formada por:
 
 | Cômodo  | Documentação | Código | Simulação | Circuito Físico |
 | :-----  | :----------: | :----: | :-------: | :-------------: |
-| Sala    | - | -  | -  | - |
-| Jardim  | - | -  | -  | - |
-| Quarto  | - | 👍 | 👍 | - |
-| Cozinha | - | 👍 | 👍 | - |
-| Garagem | - | -  | -  | - |
-|                           |
-| Final   | - | -  | -  | - |
+| Sala    | 👍 | 👍 | 👍 | 👍 |
+| Jardim  | 👍 | 👍 | 👍 | 👍 |
+| Quarto  | 👍 | 👍 | 👍 | 👍 |
+| Cozinha | 👍 | 👍 | 👍 | 👍 |
+| Garagem | 👍 | 👍 | 👍 | 👍 |
+|                               |
+| Final   | 👍 | 👍  |👍 | 👍 |
 
 ## Componentes Necessários
 
 | Componente                       | Quantidade |
 | :------------------------------- | :--------: |
-| LED (Cores únicas)               | 4          |
-| Motor 180                        | 3          |
-| Sensor de presença               | 4          |
-| Sensor de amperagem não invasivo | 1          |
-| Sensor de umidade e temperatura  | 1          |
-| Buzzer                           | 1          |
-| Detector de chama                | 1          |
+| LED (Cores únicas)               | 6          |
+| Servo motor SG92R                | 1          |
 | Sensor de gás carbônico          | 1          |
-| Sensor RFID                      | 1          |
+| Sensor RFID                      | 2          |
 | Tag RFID                         | 2          |
-| Bomba d'água                     | 1          |
-| Sensor infravermelho             | 1          |
 | Sensor de solo ergométrico       | 1          |
 | Jumper macho-fêmea               | X          |
 | Jumper macho-macho               | X          |
