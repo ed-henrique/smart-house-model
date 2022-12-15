@@ -73,14 +73,21 @@ Equipe formada por:
 
 Realizada no [TinkerCAD](https://www.tinkercad.com/).
 
-- [Quarto](https://www.tinkercad.com/things/1ti3R4PK9Hj-room/editel?sharecode=8vkjghZ6XnxZCeL6nJtyfPkicpLPOaI8kOBU5B5z2uQ)
+- [Arduino uno]()
 
-![Room Simulation](assets/room_simulation.png)
+![arduino uno Simulation](assets/Arduino_uno.png)
 
-- [Cozinha](https://www.tinkercad.com/things/7djUzqg2YDo-cozinha-projeto-casa-inteligente/editel)
+- [Arduino nano]()
 
-![Kitchen Simulation](assets/kitchen_simulation.png)
+![Arduino nano Simulation](assets/Arduino_nano.png)
 
+- [ESP 8266]()
+
+![ESP 8266 Simulation](assets/ESP_8266.png)
+
+- [Storyboard] ()
+
+![Storyboard](assets/big-picture-SI-projet.png)
 ## Testes Realizados
 
 TDD - Test-Driven Development
