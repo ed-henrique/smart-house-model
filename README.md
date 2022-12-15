@@ -50,9 +50,10 @@ Equipe formada por:
 
 | Componente                       | Quantidade |
 | :------------------------------- | :--------: |
-| LED (Cores únicas)               | 6          |
+| LED (Cores únicas)               | 7          |
 | Servo motor SG92R                | 1          |
-| Sensor de gás carbônico          | 1          |
+| Sensor Ultrassonico HC-SR04      | 3          |
+| Sensor de gás carbônico MQ       | 1          |
 | Sensor RFID                      | 2          |
 | Tag RFID                         | 2          |
 | Sensor de solo ergométrico       | 1          |
